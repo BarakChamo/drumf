@@ -102,7 +102,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/drumf/dev/1486827409827-2017-02-11T15:36:49.827Z/drumf.zip"
+          "S3Key": "serverless/drumf/dev/1486830772412-2017-02-11T16:32:52.412Z/drumf.zip"
         },
         "FunctionName": "drumf-dev-hello",
         "Handler": "handler.hello",
@@ -121,14 +121,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "HelloLambdaVersion6bvCQ9Rgw6FlM13bTQIae7FNb7syI7KAFGsZTv6qLE": {
+    "HelloLambdaVersion2aBz8i6IKG0vwzIWSXaxZYcdmZkKbnUOV7jD2dZI6os": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "HelloLambdaFunction"
         },
-        "CodeSha256": "6bvCQ9Rgw6FlM13bTQIae7F/Nb7syI7KAFGsZTv6qLE="
+        "CodeSha256": "2aBz8i6IKG0vwzIWSXaxZYcdmZkKbnUOV7jD2dZI6os="
       }
     },
     "ApiGatewayRestApi": {
@@ -236,7 +236,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1486827409837": {
+    "ApiGatewayDeployment1486830772422": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -291,7 +291,7 @@
     "HelloLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "HelloLambdaVersion6bvCQ9Rgw6FlM13bTQIae7FNb7syI7KAFGsZTv6qLE"
+        "Ref": "HelloLambdaVersion2aBz8i6IKG0vwzIWSXaxZYcdmZkKbnUOV7jD2dZI6os"
       }
     },
     "ServiceEndpoint": {
